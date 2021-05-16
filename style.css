@@ -1,0 +1,79 @@
+body {
+    font-family: bungee;
+    text-align: center;
+    color: black;
+}
+
+button {
+    background-color: white;
+    border: 0px;
+    text-align: center;
+}
+
+.pink-section {
+    color: black;
+    background-color: #ff00ff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-family: bungee;
+    color: #7944e6;
+    text-align: center;
+}
+a:hover {
+    color: #10fdff;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+}
+
+.cards {
+    border: 3px solid #7944e6;
+    padding: 2em 0em;
+    width: 200px;
+    height: 300px
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 768px){
+.pink-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-section{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div{
+    text-align: left;
+}
+
+}
